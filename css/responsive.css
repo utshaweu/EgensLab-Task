@@ -1,0 +1,249 @@
+/* ============================================================================================
+                                        Extra Small Device
+=============================================================================================== */
+@media (max-width: 575.98px) {
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .navbar {
+    z-index: 9999;
+  }
+  .navbar-toggler i {
+    color: #ffa100;
+    font-size: 28px;
+  }
+  .navbar-collapse {
+    text-align: center;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .mr {
+    padding-bottom: 30px;
+  }
+  .sign-up::after {
+    display: none;
+  }
+  .sub-header-text {
+    text-align: right;
+  }
+  .sub-header-search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #header-bottom {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  #difference .image {
+    width: auto;
+  }
+  #difference .shape1 {
+    display: none;
+  }
+  #difference .shape2 {
+    display: none;
+  }
+  #difference .shape3 {
+    display: none;
+  }
+  #difference .shape4 {
+    display: none;
+  }
+  #difference .shape5 {
+    display: none;
+  }
+  .difference-bg {
+    padding-top: 70px;
+  }
+  .difference-text p {
+    padding-bottom: 20px;
+  }
+  .box h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .difference-bg {
+    padding-top: 40px;
+  }
+  .difference-text h6 {
+    font-size: 20px;
+  }
+  .difference-text h2 {
+    font-size: 22px;
+    padding-bottom: 25px;
+  }
+  .difference-text p {
+    font-size: 14px;
+  }
+  .box {
+    flex-direction: column;
+    padding: 20px 25px;
+  }
+  .box h3 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+/* ============================================================================================
+                                                  Small Device
+==============================================================================================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .navbar {
+    z-index: 9999;
+  }
+  .navbar-toggler i {
+    color: #ffa100;
+    font-size: 28px;
+  }
+  .navbar-collapse {
+    text-align: center;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .mr {
+    padding-bottom: 30px;
+  }
+  .sign-up::after {
+    display: none;
+  }
+  .sub-header-text {
+    text-align: right;
+  }
+  .sub-header-search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #header-bottom {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  #difference .image {
+    width: auto;
+  }
+  #difference .shape1 {
+    display: none;
+  }
+  #difference .shape2 {
+    display: none;
+  }
+  #difference .shape3 {
+    display: none;
+  }
+  #difference .shape4 {
+    display: none;
+  }
+  #difference .shape5 {
+    display: none;
+  }
+  .difference-bg {
+    padding-top: 70px;
+  }
+  .difference-text p {
+    padding-bottom: 20px;
+  }
+  .box h3 {
+    font-size: 20px;
+  }
+}
+/* =============================================================================================
+                                                Medium Device 
+===============================================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  button:focus {
+    outline: 0;
+  }
+  .navbar {
+    z-index: 9999;
+  }
+  .navbar-toggler i {
+    color: #ffa100;
+    font-size: 28px;
+  }
+  .navbar-collapse {
+    text-align: center;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .mr {
+    padding-bottom: 30px;
+  }
+  .sign-up::after {
+    display: none;
+  }
+  #header-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #difference .image {
+    width: auto;
+  }
+  #difference .shape1 {
+    display: none;
+  }
+  #difference .shape2 {
+    display: none;
+  }
+  #difference .shape3 {
+    display: none;
+  }
+  #difference .shape4 {
+    display: none;
+  }
+  #difference .shape5 {
+    display: none;
+  }
+  .difference-bg {
+    padding-top: 70px;
+  }
+  .difference-text p {
+    padding-bottom: 20px;
+  }
+  .box h3 {
+    font-size: 20px;
+  }
+}
+
+/* ============================================================================================
+                                             Large Device
+===============================================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .difference-bg {
+    padding-top: 60px;
+  }
+  .difference-text h6 {
+    font-size: 22px;
+  }
+  .difference-text h2 {
+    font-size: 27px;
+    padding-bottom: 20px;
+  }
+  .difference-text p{
+    font-size: 14px;
+  }
+  .box{
+    padding: 30px 25px;
+  }
+  .box h3{
+    font-size: 20px;
+  }
+}
